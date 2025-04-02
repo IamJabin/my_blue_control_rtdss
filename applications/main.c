@@ -109,6 +109,7 @@ int main(void)
         LedOff(LED3_PORT,LED3_PIN);
         delay_n_ms(500); 
         LedOn(LED3_PORT,LED3_PIN);
+				delay_n_ms(500); 
         //ns_sleep();
 
     }
