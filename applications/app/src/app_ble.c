@@ -38,7 +38,7 @@
 #include "ns_sec.h"
 #include "app_ble.h"
 #include "app_usart.h"
-#include "app_gpio.h"
+#include "bsp_gpio.h"
 #include "app_rdtss.h"
 #include "app_dis.h"
 #include "app_batt.h"

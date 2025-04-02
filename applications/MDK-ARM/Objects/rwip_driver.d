@@ -28,7 +28,7 @@
 .\objects\rwip_driver.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_keyscan.h
 .\objects\rwip_driver.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_qflash.h
 .\objects\rwip_driver.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
-.\objects\rwip_driver.o: ..\inc\app_user_config.h
+.\objects\rwip_driver.o: ..\app\inc\app_user_config.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
 .\objects\rwip_driver.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
@@ -37,7 +37,7 @@
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwble_hl_config.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\rwble_hl_error.h
-.\objects\rwip_driver.o: ..\inc\app_profile\rwapp_config.h
+.\objects\rwip_driver.o: ..\app\inc\app_profile\rwapp_config.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwprf_config.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
 .\objects\rwip_driver.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

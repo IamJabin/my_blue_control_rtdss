@@ -1,4 +1,4 @@
-.\objects\main.o: ..\src\main.c
+.\objects\main.o: ..\main.c
 .\objects\main.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\main.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\main.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -29,7 +29,7 @@
 .\objects\main.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
-.\objects\main.o: ..\inc\app_user_config.h
+.\objects\main.o: ..\app\inc\app_user_config.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
 .\objects\main.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
@@ -38,7 +38,7 @@
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwble_hl_config.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\rwble_hl_error.h
-.\objects\main.o: ..\inc\app_profile\rwapp_config.h
+.\objects\main.o: ..\app\inc\app_profile\rwapp_config.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwprf_config.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\ble\ns_ble.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
@@ -124,9 +124,9 @@
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\delay\ns_delay.h
-.\objects\main.o: ..\inc\app_usart.h
-.\objects\main.o: ..\inc\app_gpio.h
-.\objects\main.o: ..\inc\app_ble.h
+.\objects\main.o: ..\app\inc\app_usart.h
+.\objects\main.o: ..\bsp\inc\bsp_gpio.h
+.\objects\main.o: ..\app\inc\app_ble.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\ble\ns_ble_task.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h

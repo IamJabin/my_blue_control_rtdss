@@ -41,10 +41,12 @@ extern "C" {
 
 #include "n32wb03x.h"
     
-#define LED1_PORT GPIOB
-#define LED1_PIN  GPIO_PIN_0
+#define LED1_PORT GPIOA
+#define LED1_PIN  GPIO_PIN_2
 #define LED2_PORT GPIOA
-#define LED2_PIN  GPIO_PIN_6
+#define LED2_PIN  GPIO_PIN_3
+#define LED3_PORT GPIOB
+#define LED3_PIN  GPIO_PIN_0
 
 
 void LedInit(GPIO_Module* GPIOx, uint16_t Pin);

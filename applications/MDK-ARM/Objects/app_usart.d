@@ -1,4 +1,4 @@
-.\objects\app_usart.o: ..\src\app_usart.c
+.\objects\app_usart.o: ..\app\src\app_usart.c
 .\objects\app_usart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\app_usart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
@@ -34,7 +34,7 @@
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\Typedefine.h
 .\objects\app_usart.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
-.\objects\app_usart.o: ..\inc\app_user_config.h
+.\objects\app_usart.o: ..\app\inc\app_user_config.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h
@@ -42,7 +42,7 @@
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwble_hl_config.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\rwble_hl_error.h
-.\objects\app_usart.o: ..\inc\app_profile\rwapp_config.h
+.\objects\app_usart.o: ..\app\inc\app_profile\rwapp_config.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwprf_config.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\compiler.h
 .\objects\app_usart.o: ..\..\firmware\CMSIS\core\core_cm0.h
@@ -119,13 +119,13 @@
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\gatt.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\ble_stack_common.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
-.\objects\app_usart.o: ..\inc\app_usart.h
-.\objects\app_usart.o: ..\inc\app_profile\app_rdtss.h
+.\objects\app_usart.o: ..\app\inc\app_usart.h
+.\objects\app_usart.o: ..\app\inc\app_profile\app_rdtss.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\sleep\ns_sleep.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\timer\ns_timer.h
-.\objects\app_usart.o: ..\inc\app_ble.h
+.\objects\app_usart.o: ..\app\inc\app_ble.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\ble\ns_ble.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
 .\objects\app_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h

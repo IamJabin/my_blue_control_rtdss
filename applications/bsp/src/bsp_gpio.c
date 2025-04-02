@@ -26,109 +26,90 @@
  * ****************************************************************************/
 
 /**
- * @file main.c
+ * @file app_gpio.c
  * @author Nations Firmware Team
- * @version v1.0.1
+ * @version v1.0.0
  *
  * @copyright Copyright (c) 2019, Nations Technologies Inc. All rights reserved.
  */
+#include "bsp_gpio.h"
 
 /** @addtogroup 
  * @{
  */
- 
-/* Includes ------------------------------------------------------------------*/
-#include "n32wb03x.h"
-#include "rwip.h"
-#include "ns_ble.h"
-#include "ns_sleep.h"
-#include "ns_delay.h"
-#include "ns_log.h"
-#include "app_usart.h"
-#include "app_gpio.h"
-#include "app_ble.h"
-#if  (CFG_APP_NS_IUS)
-#include "ns_dfu_boot.h"
-#endif
-
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
-#define DEMO_STRING  "\r\n Nations raw data transfer server(128bit UUID) demo \r\n"
 
-/* Private constants ---------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
+
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
 
 /**
- * @brief  main function
- * @param   
- * @return 
- * @note   Note
+ * @brief  Configures LED GPIO.
+ * @param Led Specifies the Led to be configured.
+ *   This parameter can be GPIO_PIN_0~GPIO_PIN_13.
  */
-int main(void)
+void LedInit(GPIO_Module* GPIOx, uint16_t Pin)
 {
-    //for hold the SWD before sleep
-    delay_n_10us(200*1000);
-    
+    GPIO_InitType GPIO_InitStructure;
 
-    NS_LOG_INIT();
+    /* Check the parameters */
+    assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
 
-    #if  (CFG_APP_NS_IUS)
-    if(CURRENT_APP_START_ADDRESS == NS_APP1_START_ADDRESS){
-        NS_LOG_INFO("application 1 start new ...\r\n");
-    }else if(CURRENT_APP_START_ADDRESS == NS_APP2_START_ADDRESS){
-        NS_LOG_INFO("application 2 start new ...\r\n");
-    }
-    #endif
-    app_ble_init();
-    
-    NS_LOG_INFO(DEMO_STRING);
-
-    // periph init 
-    LedInit(LED1_PORT,LED1_PIN);  // power led
-    LedInit(LED2_PORT,LED2_PIN);  //connection state
-    LedOn(LED1_PORT,LED1_PIN);    
-    app_usart_dma_enable(ENABLE);
-    //init text
-    usart_tx_dma_send((uint8_t*)DEMO_STRING, sizeof(DEMO_STRING)); 
-
-    delay_n_10us(500);
-    //disable usart for enter sleep
-    app_usart_dma_enable(DISABLE);
-    
-
-    while (1)
+    /* Enable the GPIO Clock */
+    if (GPIOx == GPIOA)
     {
-        /*schedule all pending events*/
-        rwip_schedule();
-        ns_sleep();
+        RCC_EnableAPB2PeriphClk(RCC_APB2_PERIPH_GPIOA, ENABLE);
+    }
+    else if (GPIOx == GPIOB)
+    {
+        RCC_EnableAPB2PeriphClk(RCC_APB2_PERIPH_GPIOB, ENABLE);
+    }
+    else
+    {
+        return;
+    }
 
+    /* Configure the GPIO pin as output push-pull */
+    if (Pin <= GPIO_PIN_ALL)
+    {
+        GPIO_InitStruct(&GPIO_InitStructure);
+        GPIO_InitStructure.Pin = Pin;
+        GPIO_InitStructure.GPIO_Mode = GPIO_MODE_OUTPUT_PP;
+        GPIO_InitPeripheral(GPIOx, &GPIO_InitStructure);
     }
 }
-
 /**
- * @brief  user handle before enter sleep mode
- * @param  
- * @return 
- * @note   
+ * @brief  Turns selected Led on.
+ * @param GPIOx x can be A to B to select the GPIO port.
+ * @param Pin This parameter can be GPIO_PIN_0~GPIO_PIN_13.
  */
-void app_sleep_prepare_proc(void)
-{
-
+void LedOn(GPIO_Module* GPIOx, uint16_t Pin)
+{    
+    GPIO_SetBits(GPIOx, Pin);
 }
 
 /**
- * @brief  user handle after wake up from sleep mode
- * @param  
- * @return 
- * @note   
+ * @brief  Turns selected Led Off.
+ * @param GPIOx x can be A to B to select the GPIO port.
+ * @param Pin This parameter can be GPIO_PIN_0~GPIO_PIN_13.
  */
-void app_sleep_resume_proc(void)
+void LedOff(GPIO_Module* GPIOx, uint16_t Pin)
 {
-    
-    
+    GPIO_ResetBits(GPIOx, Pin);
+}
+
+/**
+ * @brief  Toggles the selected Led.
+ * @param GPIOx x can be A to B to select the GPIO port.
+ * @param Pin This parameter can be GPIO_PIN_0~GPIO_PIN_13.
+ */
+void LedBlink(GPIO_Module* GPIOx, uint16_t Pin)
+{
+    GPIO_TogglePin(GPIOx, Pin);
 }
 
 
@@ -136,4 +117,3 @@ void app_sleep_resume_proc(void)
 /**
  * @}
  */
-

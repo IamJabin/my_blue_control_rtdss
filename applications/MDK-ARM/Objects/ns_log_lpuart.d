@@ -29,6 +29,6 @@
 .\objects\ns_log_lpuart.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_qflash.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
 .\objects\ns_log_lpuart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
-.\objects\ns_log_lpuart.o: ..\inc\app_user_config.h
+.\objects\ns_log_lpuart.o: ..\app\inc\app_user_config.h
 .\objects\ns_log_lpuart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
 .\objects\ns_log_lpuart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h

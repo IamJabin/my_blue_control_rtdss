@@ -35,7 +35,7 @@
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\Typedefine.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
-.\objects\ns_sleep.o: ..\inc\app_user_config.h
+.\objects\ns_sleep.o: ..\app\inc\app_user_config.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h
@@ -43,7 +43,7 @@
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwble_hl_config.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\rwble_hl_error.h
-.\objects\ns_sleep.o: ..\inc\app_profile\rwapp_config.h
+.\objects\ns_sleep.o: ..\app\inc\app_profile\rwapp_config.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwprf_config.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\compiler.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\core\core_cm0.h

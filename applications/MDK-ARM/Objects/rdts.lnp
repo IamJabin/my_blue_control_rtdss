@@ -32,13 +32,14 @@
 ".\objects\ns_sec.o"
 ".\objects\ns_ble.o"
 ".\objects\ns_ble_task.o"
-".\objects\app_dis.o"
 ".\objects\app_batt.o"
+".\objects\app_dis.o"
+".\objects\app_ns_ius.o"
 ".\objects\app_rdtss.o"
 ".\objects\app_ble.o"
-".\objects\main.o"
 ".\objects\app_usart.o"
-".\objects\app_gpio.o"
+".\objects\main.o"
+".\objects\bsp_gpio.o"
 --library_type=microlib --strict --scatter ".\Objects\rdts.sct"
 ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\symdef\symbol_g15.obj --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

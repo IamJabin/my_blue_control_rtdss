@@ -1,4 +1,4 @@
-.\objects\app_rdtss.o: ..\src\app_profile\app_rdtss.c
+.\objects\app_rdtss.o: ..\app\src\app_profile\app_rdtss.c
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\app_rdtss.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\app_rdtss.o: ..\..\firmware\CMSIS\core\core_cm0.h
@@ -28,7 +28,7 @@
 .\objects\app_rdtss.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_keyscan.h
 .\objects\app_rdtss.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_qflash.h
 .\objects\app_rdtss.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
-.\objects\app_rdtss.o: ..\inc\app_user_config.h
+.\objects\app_rdtss.o: ..\app\inc\app_user_config.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
 .\objects\app_rdtss.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
@@ -37,7 +37,7 @@
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwble_hl_config.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\rwble_hl_error.h
-.\objects\app_rdtss.o: ..\inc\app_profile\rwapp_config.h
+.\objects\app_rdtss.o: ..\app\inc\app_profile\rwapp_config.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwprf_config.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_utils.h
 .\objects\app_rdtss.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
@@ -51,7 +51,7 @@
 .\objects\app_rdtss.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_error.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip.h
-.\objects\app_rdtss.o: ..\inc\app_profile\app_rdtss.h
+.\objects\app_rdtss.o: ..\app\inc\app_profile\app_rdtss.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts\rdtss\api\rdtss_task.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ke\api\ke_task.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ke\api\ke_msg.h
@@ -125,4 +125,4 @@
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts\rdtss\api\rdtss.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts\rdts_common.h
-.\objects\app_rdtss.o: ..\inc\app_usart.h
+.\objects\app_rdtss.o: ..\app\inc\app_usart.h

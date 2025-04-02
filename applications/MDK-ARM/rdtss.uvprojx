@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>N32WB03X, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\inc;..\..\firmware\CMSIS\core;..\..\firmware\CMSIS\device;..\..\firmware\n32wb03x_std_periph_driver\inc;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\dis\diss\api;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\bas\bass\api;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\bas\bass\src;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\hogp;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\hogp\hogpd\api;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\hogp\hogpd\src;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts\rdtss\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ahi\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\gap;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\gatt;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\l2c;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\src;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\src\llc;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\src\lld;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\src\llm;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\em\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\hci\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\sch\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\aes\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\dbg\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ecc_p256\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\h4tl\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ke\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\rfinit\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\src;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common;..\inc\rw;..\inc\app_profile;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch;..\..\middlewares\Nationstech\ble_library\ns_library\adv;..\..\middlewares\Nationstech\ble_library\ns_library\timer;..\..\middlewares\Nationstech\ble_library\ns_library\log;..\..\middlewares\Nationstech\ble_library\ns_library\delay;..\..\middlewares\Nationstech\ble_library\ns_library\sleep;..\..\middlewares\Nationstech\ble_library\ns_library\sec;..\..\middlewares\Nationstech\ble_library\ns_library\ble</IncludePath>
+              <IncludePath>..\..\firmware\CMSIS\core;..\..\firmware\CMSIS\device;..\..\firmware\n32wb03x_std_periph_driver\inc;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\dis\diss\api;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\bas\bass\api;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\bas\bass\src;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\hogp;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\hogp\hogpd\api;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\hogp\hogpd\src;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts;..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts\rdtss\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ahi\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\gap;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\gatt;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\l2c;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\src;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\src\llc;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\src\lld;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\src\llm;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\em\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\hci\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\sch\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\aes\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\dbg\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ecc_p256\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\h4tl\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ke\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\rfinit\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\src;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common;..\inc\rw;..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch;..\..\middlewares\Nationstech\ble_library\ns_library\adv;..\..\middlewares\Nationstech\ble_library\ns_library\timer;..\..\middlewares\Nationstech\ble_library\ns_library\log;..\..\middlewares\Nationstech\ble_library\ns_library\delay;..\..\middlewares\Nationstech\ble_library\ns_library\sleep;..\..\middlewares\Nationstech\ble_library\ns_library\sec;..\..\middlewares\Nationstech\ble_library\ns_library\ble;..\app\inc;..\app\src;..\bsp\inc;..\bsp\src;..\app\inc\app_profile;..\app\src\app_profile</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -949,80 +949,34 @@
           <GroupName>BLE_APP</GroupName>
           <Files>
             <File>
-              <FileName>app_dis.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_dis.c</FilePath>
-            </File>
-            <File>
               <FileName>app_batt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_batt.c</FilePath>
+              <FilePath>..\app\src\app_profile\app_batt.c</FilePath>
             </File>
             <File>
-              <FileName>app_rdtss.c</FileName>
+              <FileName>app_dis.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_rdtss.c</FilePath>
+              <FilePath>..\app\src\app_profile\app_dis.c</FilePath>
             </File>
             <File>
               <FileName>app_ns_ius.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_ns_ius.c</FilePath>
-              <FileOption>
-                <CommonProperty>
-                  <UseCPPCompiler>2</UseCPPCompiler>
-                  <RVCTCodeConst>0</RVCTCodeConst>
-                  <RVCTZI>0</RVCTZI>
-                  <RVCTOtherData>0</RVCTOtherData>
-                  <ModuleSelection>0</ModuleSelection>
-                  <IncludeInBuild>0</IncludeInBuild>
-                  <AlwaysBuild>2</AlwaysBuild>
-                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
-                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
-                  <PublicsOnly>2</PublicsOnly>
-                  <StopOnExitCode>11</StopOnExitCode>
-                  <CustomArgument></CustomArgument>
-                  <IncludeLibraryModules></IncludeLibraryModules>
-                  <ComprImg>1</ComprImg>
-                </CommonProperty>
-                <FileArmAds>
-                  <Cads>
-                    <interw>2</interw>
-                    <Optim>0</Optim>
-                    <oTime>2</oTime>
-                    <SplitLS>2</SplitLS>
-                    <OneElfS>2</OneElfS>
-                    <Strict>2</Strict>
-                    <EnumInt>2</EnumInt>
-                    <PlainCh>2</PlainCh>
-                    <Ropi>2</Ropi>
-                    <Rwpi>2</Rwpi>
-                    <wLevel>0</wLevel>
-                    <uThumb>2</uThumb>
-                    <uSurpInc>2</uSurpInc>
-                    <uC99>2</uC99>
-                    <uGnu>2</uGnu>
-                    <useXO>2</useXO>
-                    <v6Lang>0</v6Lang>
-                    <v6LangP>0</v6LangP>
-                    <vShortEn>2</vShortEn>
-                    <vShortWch>2</vShortWch>
-                    <v6Lto>2</v6Lto>
-                    <v6WtE>2</v6WtE>
-                    <v6Rtti>2</v6Rtti>
-                    <VariousControls>
-                      <MiscControls></MiscControls>
-                      <Define></Define>
-                      <Undefine></Undefine>
-                      <IncludePath></IncludePath>
-                    </VariousControls>
-                  </Cads>
-                </FileArmAds>
-              </FileOption>
+              <FilePath>..\app\src\app_profile\app_ns_ius.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_rdtss.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app\src\app_profile\app_rdtss.c</FilePath>
             </File>
             <File>
               <FileName>app_ble.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_ble.c</FilePath>
+              <FilePath>..\app\src\app_ble.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app\src\app_usart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1032,29 +986,12 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>app_usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>app_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_gpio.c</FilePath>
+              <FilePath>..\main.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
           <GroupName>CONFIG</GroupName>
-          <Files>
-            <File>
-              <FileName>app_user_config.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\inc\app_user_config.h</FilePath>
-            </File>
-          </Files>
         </Group>
         <Group>
           <GroupName>DOC</GroupName>
@@ -1063,6 +1000,16 @@
               <FileName>readme.txt</FileName>
               <FileType>5</FileType>
               <FilePath>..\readme.txt</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1771,29 +1718,34 @@
           <GroupName>BLE_APP</GroupName>
           <Files>
             <File>
-              <FileName>app_dis.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_dis.c</FilePath>
-            </File>
-            <File>
               <FileName>app_batt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_batt.c</FilePath>
+              <FilePath>..\app\src\app_profile\app_batt.c</FilePath>
             </File>
             <File>
-              <FileName>app_rdtss.c</FileName>
+              <FileName>app_dis.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_rdtss.c</FilePath>
+              <FilePath>..\app\src\app_profile\app_dis.c</FilePath>
             </File>
             <File>
               <FileName>app_ns_ius.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_ns_ius.c</FilePath>
+              <FilePath>..\app\src\app_profile\app_ns_ius.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_rdtss.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app\src\app_profile\app_rdtss.c</FilePath>
             </File>
             <File>
               <FileName>app_ble.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_ble.c</FilePath>
+              <FilePath>..\app\src\app_ble.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app\src\app_usart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1803,29 +1755,12 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>app_usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>app_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_gpio.c</FilePath>
+              <FilePath>..\main.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
           <GroupName>CONFIG</GroupName>
-          <Files>
-            <File>
-              <FileName>app_user_config.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\inc\app_user_config.h</FilePath>
-            </File>
-          </Files>
         </Group>
         <Group>
           <GroupName>DOC</GroupName>
@@ -1834,6 +1769,16 @@
               <FileName>readme.txt</FileName>
               <FileType>5</FileType>
               <FilePath>..\readme.txt</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2542,29 +2487,34 @@
           <GroupName>BLE_APP</GroupName>
           <Files>
             <File>
-              <FileName>app_dis.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_dis.c</FilePath>
-            </File>
-            <File>
               <FileName>app_batt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_batt.c</FilePath>
+              <FilePath>..\app\src\app_profile\app_batt.c</FilePath>
             </File>
             <File>
-              <FileName>app_rdtss.c</FileName>
+              <FileName>app_dis.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_rdtss.c</FilePath>
+              <FilePath>..\app\src\app_profile\app_dis.c</FilePath>
             </File>
             <File>
               <FileName>app_ns_ius.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_profile\app_ns_ius.c</FilePath>
+              <FilePath>..\app\src\app_profile\app_ns_ius.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_rdtss.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app\src\app_profile\app_rdtss.c</FilePath>
             </File>
             <File>
               <FileName>app_ble.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\app_ble.c</FilePath>
+              <FilePath>..\app\src\app_ble.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app\src\app_usart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2574,29 +2524,12 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\src\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>app_usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>app_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\src\app_gpio.c</FilePath>
+              <FilePath>..\main.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
           <GroupName>CONFIG</GroupName>
-          <Files>
-            <File>
-              <FileName>app_user_config.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\inc\app_user_config.h</FilePath>
-            </File>
-          </Files>
         </Group>
         <Group>
           <GroupName>DOC</GroupName>
@@ -2605,6 +2538,16 @@
               <FileName>readme.txt</FileName>
               <FileType>5</FileType>
               <FilePath>..\readme.txt</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_gpio.c</FilePath>
             </File>
           </Files>
         </Group>
