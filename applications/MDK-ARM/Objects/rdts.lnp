@@ -40,7 +40,9 @@
 ".\objects\app_usart.o"
 ".\objects\main.o"
 ".\objects\bsp_gpio.o"
+".\objects\bsp.o"
+".\objects\bsp_smg.o"
 --library_type=microlib --strict --scatter ".\Objects\rdts.sct"
-..\..\middlewares\Nationstech\ble_library\ns_ble_stack\symdef\symbol_g15.obj --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+..\..\middlewares\Nationstech\ble_library\ns_ble_stack\symdef\symbol_g15.obj --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\rdts.map" -o .\Objects\rdts.axf

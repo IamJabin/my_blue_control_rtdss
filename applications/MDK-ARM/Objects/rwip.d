@@ -2,11 +2,11 @@
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\rwip.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\rwip.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\rwip.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rwip.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\rwip.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\rwip.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\rwip.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\rwip.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\rwip.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\rwip.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\rwip.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\rwip.o: ..\..\firmware\CMSIS\device\n32wb03x.h
@@ -30,7 +30,7 @@
 .\objects\rwip.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
 .\objects\rwip.o: ..\app\inc\app_user_config.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
-.\objects\rwip.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\rwip.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\api\rwble_config.h
@@ -46,7 +46,7 @@
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\gapc.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ke\api\ke_task.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ke\api\ke_msg.h
-.\objects\rwip.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\rwip.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\arch.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_list.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\gap.h
@@ -54,7 +54,7 @@
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\gapm_task.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_task.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_math.h
-.\objects\rwip.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\rwip.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\gattc.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\l2cc.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\l2cc_task.h
@@ -82,7 +82,7 @@
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\rfinit\api\reg_blecore.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\rfinit\api\_reg_blecore.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\rfinit\api\reg_access.h
-.\objects\rwip.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\rwip.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\string.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_utils.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\em\api\em_map.h
 .\objects\rwip.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\rfinit\api\_reg_em_et.h

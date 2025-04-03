@@ -2,11 +2,11 @@
 .\objects\bass.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\bass.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\bass.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\bass.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bass.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bass.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\bass.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\bass.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\bass.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\bass.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\bass.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\bass.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\bass.o: ..\..\firmware\CMSIS\device\n32wb03x.h
@@ -30,7 +30,7 @@
 .\objects\bass.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
 .\objects\bass.o: ..\app\inc\app_user_config.h
 .\objects\bass.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
-.\objects\bass.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bass.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\bass.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
 .\objects\bass.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h
 .\objects\bass.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\api\rwble_config.h

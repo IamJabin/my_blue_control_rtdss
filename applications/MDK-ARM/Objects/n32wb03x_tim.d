@@ -2,11 +2,11 @@
 .\objects\n32wb03x_tim.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_tim.h
 .\objects\n32wb03x_tim.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\n32wb03x_tim.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\n32wb03x_tim.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\n32wb03x_tim.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\n32wb03x_tim.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\n32wb03x_tim.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\n32wb03x_tim.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\n32wb03x_tim.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\n32wb03x_tim.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\n32wb03x_tim.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\n32wb03x_tim.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\n32wb03x_tim.o: ..\..\firmware\CMSIS\device\n32wb03x.h

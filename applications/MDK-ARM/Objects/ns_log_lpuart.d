@@ -1,12 +1,12 @@
 .\objects\ns_log_lpuart.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.c
-.\objects\ns_log_lpuart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ns_log_lpuart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\ns_log_lpuart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ns_log_lpuart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\ns_log_lpuart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\ns_log_lpuart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\ns_log_lpuart.o: ..\..\firmware\CMSIS\device\n32wb03x.h
