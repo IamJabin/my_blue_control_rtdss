@@ -10,6 +10,7 @@
       <TargetName>N32WB03x</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pArmCC>5060750::V5.06 update 6 (build 750)::ARMCC</pArmCC>
       <TargetOption>
         <TargetCommonOption>
           <Device>N32WB031</Device>
@@ -1006,6 +1007,21 @@
               <FileType>1</FileType>
               <FilePath>..\bsp\src\bsp_gpio.c</FilePath>
             </File>
+            <File>
+              <FileName>bsp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_smg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_smg.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_key.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
@@ -1796,6 +1812,21 @@
               <FileType>1</FileType>
               <FilePath>..\bsp\src\bsp_gpio.c</FilePath>
             </File>
+            <File>
+              <FileName>bsp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_smg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_smg.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_key.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
@@ -2585,6 +2616,21 @@
               <FileName>bsp_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\bsp\src\bsp_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_smg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_smg.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\src\bsp_key.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -31,3 +31,4 @@
 .\objects\bsp.o: ..\bsp\inc\bsp_gpio.h
 .\objects\bsp.o: ..\bsp\inc\bsp_smg.h
 .\objects\bsp.o: ..\bsp\inc\bsp.h
+.\objects\bsp.o: ..\bsp\inc\bsp_key.h
