@@ -35,30 +35,38 @@ int bsp_init(void)
     return true;
 }
 
+// 新定义的函数
+static uint8_t handle_digitron_and_keys(uint8_t digit_number)
+{
+    bsp_DigitronDisplayTime(digit_number);
+    // 如果按键1按下显示值加一，按键2按下显示值减一
+    uint8_t key_status = bsp_key_scan();
+    if (key_status == KEY1_OK)
+    {
+        digit_number++;
+        if (digit_number > 99)
+        {
+            digit_number = 0;
+        }
+    }
+    else if (key_status == KEY2_OK)
+    {
+        digit_number--;
+        if (digit_number > 99)
+        {
+            digit_number = 99;
+        }
+    }
+    return digit_number;
+}
+
 
 void bsp_run(void)
 {
     static uint32_t old_time = 0;
     static uint32_t old_sec_time = 0;
-    static uint32_t digit_number = 3;
-    bsp_DigitronDisplayTime(digit_number);
-    //如果按键1按下显示值加一，按键2按下显示值减一
-    uint8_t key_status = bsp_key_scan();
-    if(key_status == KEY1_OK)
-    {
-        digit_number++;
-        if(digit_number > 99)
-        {
-            digit_number = 0;
-        }
-    }
-    else if(key_status == KEY2_OK)
-    {
-        digit_number--;
-        if(digit_number > 99)
-        {
-            digit_number = 99;
-        }
-    }
+    static uint8_t digit_number = 3;
+
+    digit_number = handle_digitron_and_keys(digit_number);
 
 }
