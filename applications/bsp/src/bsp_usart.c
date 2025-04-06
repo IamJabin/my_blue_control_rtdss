@@ -35,7 +35,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "global_func.h"
-#include "app_usart.h"
+#include "bsp_usart.h"
 #include "app_rdtss.h"
 #include "ns_sleep.h"
 #include "ns_log.h"

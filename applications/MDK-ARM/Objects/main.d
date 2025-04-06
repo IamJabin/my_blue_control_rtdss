@@ -124,7 +124,7 @@
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\delay\ns_delay.h
-.\objects\main.o: ..\app\inc\app_usart.h
+.\objects\main.o: ..\bsp\inc\bsp_usart.h
 .\objects\main.o: ..\bsp\inc\bsp_gpio.h
 .\objects\main.o: ..\app\inc\app_ble.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\ble\ns_ble_task.h

@@ -39,7 +39,7 @@
 #include "ns_adv_data_def.h"
 
 /* Device name */
-#define CUSTOM_DEVICE_NAME                  "NS_RDTSS"
+#define CUSTOM_DEVICE_NAME                  "ZZB_BLUETOOTH"
 
 /* adv configer*/
 #define CUSTOM_ADV_FAST_INTERVAL               160                                        /**< Fast advertising interval (in units of 0.625 ms. This value corresponds to 100 ms.). */

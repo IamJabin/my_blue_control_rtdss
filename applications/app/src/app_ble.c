@@ -37,7 +37,7 @@
 #include "gapm_task.h"               // GAP Manager Task API
 #include "ns_sec.h"
 #include "app_ble.h"
-#include "app_usart.h"
+#include "bsp_usart.h"
 #include "bsp_gpio.h"
 #include "app_rdtss.h"
 #include "app_dis.h"

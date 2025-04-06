@@ -125,4 +125,4 @@
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts\rdtss\api\rdtss.h
 .\objects\app_rdtss.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts\rdts_common.h
-.\objects\app_rdtss.o: ..\app\inc\app_usart.h
+.\objects\app_rdtss.o: ..\bsp\inc\bsp_usart.h

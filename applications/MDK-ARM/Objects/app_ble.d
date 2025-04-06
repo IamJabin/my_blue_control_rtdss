@@ -127,7 +127,7 @@
 .\objects\app_ble.o: ..\..\middlewares\Nationstech\ble_library\ns_library\ble\ns_ble_task.h
 .\objects\app_ble.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
 .\objects\app_ble.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
-.\objects\app_ble.o: ..\app\inc\app_usart.h
+.\objects\app_ble.o: ..\bsp\inc\bsp_usart.h
 .\objects\app_ble.o: ..\bsp\inc\bsp_gpio.h
 .\objects\app_ble.o: ..\app\inc\app_profile\app_rdtss.h
 .\objects\app_ble.o: ..\app\inc\app_profile\app_dis.h

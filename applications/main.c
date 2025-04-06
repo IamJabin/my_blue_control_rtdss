@@ -44,7 +44,7 @@
 #include "ns_sleep.h"
 #include "ns_delay.h"
 #include "ns_log.h"
-#include "app_usart.h"
+#include "bsp_usart.h"
 #include "bsp_gpio.h"
 #include "app_ble.h"
 #if  (CFG_APP_NS_IUS)
@@ -70,9 +70,14 @@
 #if(1)
 int main(void)
 {
+    borad_init();
     bsp_init();
     while(1)
     {
+        /*schedule all pending events*/
+        rwip_schedule();
+        //ns_sleep();
+
         bsp_run();
     }
 }
