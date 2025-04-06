@@ -58,6 +58,8 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "bsp.h": "c",
-    "bsp_key.h": "c"
+    "bsp_key.h": "c",
+    "bsp_beep.h": "c",
+    "n32wb03x_gpio.h": "c"
   }
 }

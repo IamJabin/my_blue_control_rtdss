@@ -31,6 +31,7 @@ int bsp_init(void)
     SystemCoreClockUpdate(); // 更新系统时钟频率
     SysTick_Config(SystemCoreClock / BSP_SYSTICK_TICK);  // 配置 SysTick 定时器，默认64MHz
 
+    bsp_beep_init();
     bsp_key_init();
     return true;
 }

@@ -34,3 +34,4 @@
 .\objects\bsp_key.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
 .\objects\bsp_key.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\bsp_key.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h
+.\objects\bsp_key.o: ..\bsp\inc\bsp_beep.h
