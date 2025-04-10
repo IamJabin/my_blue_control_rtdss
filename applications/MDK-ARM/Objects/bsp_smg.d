@@ -3,11 +3,11 @@
 .\objects\bsp_smg.o: ..\bsp\inc\bsp.h
 .\objects\bsp_smg.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\bsp_smg.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\bsp_smg.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_smg.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bsp_smg.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\bsp_smg.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\bsp_smg.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\bsp_smg.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\bsp_smg.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\bsp_smg.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\bsp_smg.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\bsp_smg.o: ..\..\firmware\CMSIS\device\n32wb03x.h

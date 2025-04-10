@@ -77,7 +77,7 @@ int main(void)
         /*schedule all pending events*/
         rwip_schedule();
         //ns_sleep();
-
+        ble_rx_msg();
         bsp_run();
     }
 }

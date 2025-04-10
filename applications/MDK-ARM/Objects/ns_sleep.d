@@ -1,15 +1,15 @@
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_library\sleep\ns_sleep.c
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_library\sleep\ns_sleep.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
-.\objects\ns_sleep.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\ns_sleep.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\ns_sleep.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ns_sleep.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ns_sleep.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ns_sleep.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\ns_sleep.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\ns_sleep.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\ns_sleep.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\device\n32wb03x.h
@@ -49,7 +49,7 @@
 .\objects\ns_sleep.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_version.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h
-.\objects\ns_sleep.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ns_sleep.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_lmp.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h
@@ -59,7 +59,7 @@
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_utils.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_math.h
-.\objects\ns_sleep.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ns_sleep.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\arch.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\ns_sleep.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\em\api\em_map.h

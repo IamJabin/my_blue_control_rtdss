@@ -374,13 +374,11 @@ ARM Macro Assembler    Page 6
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
-ork --depend=.\objects\startup_n32wb03x.d -o.\objects\startup_n32wb03x.o -IE:\M
-CU\my_blue_control_rtdss\applications\MDK-ARM\RTE -ID:\software\major\keil526\A
-RM\PACK\Nationstech\N32WB03X_DFP\1.1.0\firmware\CMSIS\device -ID:\software\majo
-r\keil526\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVIS
-ION_VERSION SETA 514" --predefine="N32WB03x SETA 1" --predefine="USE_STDPERIPH_
-DRIVER SETA 1" --list=.\listings\startup_n32wb03x.lst ..\..\firmware\CMSIS\devi
-ce\startup\startup_n32wb03x.s
+ork --depend=.\objects\startup_n32wb03x.d -o.\objects\startup_n32wb03x.o -ID:\s
+oftware\major\Arm\Packs\Nationstech\N32WB03X_DFP\1.1.0\firmware\CMSIS\device --
+predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 537" --predef
+ine="N32WB03x SETA 1" --predefine="USE_STDPERIPH_DRIVER SETA 1" --list=.\listin
+gs\startup_n32wb03x.lst ..\..\firmware\CMSIS\device\startup\startup_n32wb03x.s
 
 
 

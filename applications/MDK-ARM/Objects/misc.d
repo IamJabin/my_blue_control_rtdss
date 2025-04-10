@@ -2,11 +2,11 @@
 .\objects\misc.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
 .\objects\misc.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\misc.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\misc.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\misc.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\misc.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\misc.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\misc.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\misc.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\misc.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\misc.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\misc.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\misc.o: ..\..\firmware\CMSIS\device\n32wb03x.h

@@ -59,6 +59,10 @@ uint8_t  usart_rx_fifo_buf[USART_RX_FIFO_SIZE] = {0};
 uint32_t usart_rx_fifo_in = 0;
 uint32_t usart_rx_fifo_out = 0;
 
+uint16_t volatile usart_rx_fifo_start = 0;
+uint16_t volatile usart_rx_fifo_end = 0;
+
+bool usart_rx_full_state = 0;
 
 uint8_t  usart_tx_fifo_buf[USART_TX_FIFO_SIZE] = {0};
 uint32_t usart_tx_fifo_in = 0;

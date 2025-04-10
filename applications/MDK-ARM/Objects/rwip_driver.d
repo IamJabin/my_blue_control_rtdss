@@ -2,11 +2,11 @@
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\rwip_driver.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rwip_driver.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\rwip_driver.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\rwip_driver.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\rwip_driver.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\device\n32wb03x.h
@@ -30,7 +30,7 @@
 .\objects\rwip_driver.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
 .\objects\rwip_driver.o: ..\app\inc\app_user_config.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
-.\objects\rwip_driver.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\rwip_driver.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\api\rwble_config.h
@@ -40,7 +40,7 @@
 .\objects\rwip_driver.o: ..\app\inc\app_profile\rwapp_config.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwprf_config.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
-.\objects\rwip_driver.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\string.h
+.\objects\rwip_driver.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_var.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\Typedefine.h
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\core\core_cm0.h
@@ -48,7 +48,7 @@
 .\objects\rwip_driver.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_version.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h
-.\objects\rwip_driver.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\rwip_driver.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_lmp.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h
@@ -58,7 +58,7 @@
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_utils.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_math.h
-.\objects\rwip_driver.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\rwip_driver.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\arch.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\rwip_driver.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\em\api\em_map.h

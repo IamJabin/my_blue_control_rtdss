@@ -90,7 +90,7 @@ uint8_t bsp_key_scan(void)
     }
 
     // 检查蜂鸣器是否需要停止
-    if (beep_active && (SystickGetime() - beep_start_time > 50))
+    if (beep_active && (SystickGetime() - beep_start_time > 150))
     {
         beep_active = 0;
         bsp_beep_off();

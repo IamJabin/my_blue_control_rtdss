@@ -1,8 +1,8 @@
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\att\lib_att.c
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\gatt\gattm_int.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ke\api\ke_task.h
-.\objects\lib_att.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\lib_att.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\lib_att.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lib_att.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\lib_att.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\lib_att.o: ..\..\firmware\CMSIS\core\core_cm0.h
@@ -32,7 +32,7 @@
 .\objects\lib_att.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
 .\objects\lib_att.o: ..\app\inc\app_user_config.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
-.\objects\lib_att.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lib_att.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\api\rwble_config.h
@@ -44,7 +44,7 @@
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\compiler.h
 .\objects\lib_att.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\ke\api\ke_msg.h
-.\objects\lib_att.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\lib_att.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\arch.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_list.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\gattm_task.h
@@ -52,7 +52,7 @@
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\att.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\gap.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\src\gatt\attm_db.h
-.\objects\lib_att.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\string.h
+.\objects\lib_att.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\attm.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_error.h
 .\objects\lib_att.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h

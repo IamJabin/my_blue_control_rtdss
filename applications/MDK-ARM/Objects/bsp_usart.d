@@ -1,14 +1,14 @@
 .\objects\bsp_usart.o: ..\bsp\src\bsp_usart.c
-.\objects\bsp_usart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\string.h
-.\objects\bsp_usart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bsp_usart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\bsp_usart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
-.\objects\bsp_usart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_usart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bsp_usart.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\bsp_usart.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\bsp_usart.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\bsp_usart.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\bsp_usart.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\bsp_usart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\bsp_usart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\bsp_usart.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\bsp_usart.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\bsp_usart.o: ..\..\firmware\CMSIS\device\n32wb03x.h
@@ -48,7 +48,7 @@
 .\objects\bsp_usart.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_version.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h
-.\objects\bsp_usart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\bsp_usart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_lmp.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h
@@ -58,7 +58,7 @@
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_utils.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_math.h
-.\objects\bsp_usart.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\bsp_usart.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\arch.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\em\api\em_map.h

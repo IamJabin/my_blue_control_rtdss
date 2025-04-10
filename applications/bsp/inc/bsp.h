@@ -11,6 +11,11 @@ typedef enum{
     fuc_back_err
 }fuc_back_t;
 
+typedef enum{
+    TIMER_STATE_RUN,
+    TIMER_STATE_STOP,
+}timer_state_t;
+
 int bsp_init(void);
 void bsp_run(void);
 void SysTick_Handler(void);

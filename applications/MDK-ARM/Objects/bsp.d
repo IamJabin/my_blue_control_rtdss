@@ -1,12 +1,12 @@
-.\objects\bsp.o: ..\bsp\src\bsp.c
+.\objects\bsp.o: ..\..\..\my_blue_control_rtdss\applications\bsp\src\bsp.c
 .\objects\bsp.o: ..\bsp\inc\bsp.h
 .\objects\bsp.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\bsp.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\bsp.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bsp.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\bsp.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\bsp.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\bsp.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\bsp.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\bsp.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\bsp.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\bsp.o: ..\..\firmware\CMSIS\device\n32wb03x.h

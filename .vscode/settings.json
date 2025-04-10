@@ -60,6 +60,8 @@
     "bsp.h": "c",
     "bsp_key.h": "c",
     "bsp_beep.h": "c",
-    "n32wb03x_gpio.h": "c"
+    "n32wb03x_gpio.h": "c",
+    "bsp_usart.h": "c",
+    "bsp_frame.h": "c"
   }
 }

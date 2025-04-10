@@ -1,11 +1,11 @@
 .\objects\system_n32wb03x.o: ..\..\firmware\CMSIS\device\system_n32wb03x.c
 .\objects\system_n32wb03x.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\system_n32wb03x.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\system_n32wb03x.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_n32wb03x.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\system_n32wb03x.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\system_n32wb03x.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\system_n32wb03x.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\system_n32wb03x.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\system_n32wb03x.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\system_n32wb03x.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\system_n32wb03x.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\system_n32wb03x.o: ..\..\firmware\CMSIS\device\n32wb03x.h
@@ -27,4 +27,4 @@
 .\objects\system_n32wb03x.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_keyscan.h
 .\objects\system_n32wb03x.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_qflash.h
 .\objects\system_n32wb03x.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\misc.h
-.\objects\system_n32wb03x.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\string.h
+.\objects\system_n32wb03x.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

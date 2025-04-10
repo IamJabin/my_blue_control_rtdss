@@ -1,11 +1,11 @@
 .\objects\main.o: ..\main.c
 .\objects\main.o: ..\..\firmware\CMSIS\device\n32wb03x.h
 .\objects\main.o: ..\..\firmware\CMSIS\core\core_cm0.h
-.\objects\main.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: ..\..\firmware\CMSIS\core\core_cmInstr.h
 .\objects\main.o: ..\..\firmware\CMSIS\core\core_cmFunc.h
 .\objects\main.o: ..\..\firmware\CMSIS\device\system_n32wb03x.h
-.\objects\main.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\main.o: ..\..\firmware\CMSIS\device\n32wb03x_conf.h
 .\objects\main.o: ..\..\firmware\n32wb03x_std_periph_driver\inc\n32wb03x_adc.h
 .\objects\main.o: ..\..\firmware\CMSIS\device\n32wb03x.h
@@ -31,7 +31,7 @@
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\rwip\api\rwip_config.h
 .\objects\main.o: ..\app\inc\app_user_config.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\adv\ns_adv_data_def.h
-.\objects\main.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\log\ns_log_lpuart.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\ll\api\rwble_config.h
@@ -42,7 +42,7 @@
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\inc\rwprf_config.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_library\ble\ns_ble.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_func.h
-.\objects\main.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\stack_common\global_var.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\Typedefine.h
 .\objects\main.o: ..\..\firmware\CMSIS\core\core_cm0.h
@@ -50,7 +50,7 @@
 .\objects\main.o: ..\..\firmware\CMSIS\core\core_cm0.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_version.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h
-.\objects\main.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_lmp.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt.h
@@ -59,7 +59,7 @@
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_error.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_utils.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_math.h
-.\objects\main.o: D:\software\major\keil526\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: D:\software\major\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\arch\arch.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\main.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\em\api\em_map.h
