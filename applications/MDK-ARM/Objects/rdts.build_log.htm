@@ -27,35 +27,7 @@ Project File Date:  04/10/2025
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\software\major\Keil_v5\ARM\ARMCC\Bin'
 Build target 'N32WB03x'
-compiling bsp_gpio.c...
-compiling bsp_beep.c...
-compiling bsp.c...
-..\bsp\inc\bsp_key.h(22): warning:  #1-D: last line of file ends without a newline
-  #endif // !__BSP_KEY_H__
-..\..\..\my_blue_control_rtdss\applications\bsp\src\bsp.c(37): warning:  #223-D: function "bsp_beep_init" declared implicitly
-      bsp_beep_init();
-..\..\..\my_blue_control_rtdss\applications\bsp\src\bsp.c(127): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\..\..\my_blue_control_rtdss\applications\bsp\src\bsp.c(45): warning:  #177-D: function "handle_digitron_and_keys"  was declared but never referenced
-  static uint8_t handle_digitron_and_keys(uint8_t digit_number)
-..\..\..\my_blue_control_rtdss\applications\bsp\src\bsp.c: 4 warnings, 0 errors
-compiling bsp_smg.c...
-..\bsp\src\bsp_smg.c(42): warning:  #223-D: function "delay_n_10us" declared implicitly
-      delay_n_10us(1);
-..\bsp\src\bsp_smg.c(54): warning:  #223-D: function "delay_n_10us" declared implicitly
-      delay_n_10us(1);
-..\bsp\src\bsp_smg.c(70): warning:  #223-D: function "delay_n_10us" declared implicitly
-      delay_n_10us(1);
-..\bsp\src\bsp_smg.c(91): warning:  #223-D: function "delay_n_10us" declared implicitly
-      delay_n_10us(1);
-..\bsp\src\bsp_smg.c(101): warning:  #223-D: function "delay_n_10us" declared implicitly
-      delay_n_10us(1);
-..\bsp\src\bsp_smg.c(123): warning:  #223-D: function "delay_n_10us" declared implicitly
-          delay_n_10us(1);
-..\bsp\src\bsp_smg.c(139): warning:  #223-D: function "delay_n_10us" declared implicitly
-          delay_n_10us(1);
-..\bsp\src\bsp_smg.c: 7 warnings, 0 errors
-compiling app_ble.c...
+compiling app_rdtss.c...
 compiling main.c...
 ..\main.c(73): warning:  #223-D: function "borad_init" declared implicitly
       borad_init();
@@ -66,12 +38,6 @@ compiling main.c...
 ..\main.c(81): warning:  #223-D: function "bsp_run" declared implicitly
           bsp_run();
 ..\main.c: 4 warnings, 0 errors
-compiling app.c...
-..\app\inc\app.h(21): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\..\..\my_blue_control_rtdss\applications\app\src\app.c(22): warning:  #1-D: last line of file ends without a newline
-  }
-..\..\..\my_blue_control_rtdss\applications\app\src\app.c: 2 warnings, 0 errors
 compiling bsp_frame.c...
 ..\app\inc\app.h(21): warning:  #1-D: last line of file ends without a newline
   #endif
@@ -81,10 +47,11 @@ compiling bsp_frame.c...
           bsp_beep_off();
 ..\bsp\src\bsp_frame.c: 3 warnings, 0 errors
 compiling bsp_usart.c...
+compiling app_ble.c...
 linking...
 Program Size: Code=24308 RO-data=4408 RW-data=1440 ZI-data=6576  
 After Build - User command #1: fromelf --bin --output=.\bin\rdts.bin .\Objects\rdts.axf
-".\Objects\rdts.axf" - 0 Error(s), 20 Warning(s).
+".\Objects\rdts.axf" - 0 Error(s), 7 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -97,7 +64,7 @@ Package Vendor: Nationstech
   D:/software/major/Arm/Packs/Nationstech/N32WB03X_DFP/1.1.0/firmware/CMSIS/device
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

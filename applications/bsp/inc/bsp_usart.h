@@ -45,7 +45,7 @@ extern "C" {
 /* Public typedef -----------------------------------------------------------*/
 /* Public define ------------------------------------------------------------*/
 #define _USART1_COM_
-//#define _USART2_COM_
+// #define _USART2_COM_
 
 #ifdef _USART1_COM_
 #define USARTx              USART1
