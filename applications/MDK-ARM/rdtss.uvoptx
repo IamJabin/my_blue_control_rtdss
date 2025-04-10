@@ -135,7 +135,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>ST-LINKIII-KEIL_SWO</Key>
-          <Name>-U-O206 -O206 -SF4000 -C0 -A0 -I0 -HNlocalhost -HP7184 -P1 -N00("ARM CoreSight SW-DP") -D00(0BB11477) -L00(0) -TO131090 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC1000 -FN1 -FF0N32WB03x.FLM -FS01000000 -FL040000 -FP0($$Device:N32WB031$Flash\N32WB03x.FLM)</Name>
+          <Name>-U-O206 -O206 -SF4000 -C0 -A0 -I0 -HNlocalhost -HP7184 -P1 -N00("ARM CoreSight SW-DP") -D00(0BB11477) -L00(0) -TO131090 -TC10000000 -TT10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC1000 -FN1 -FF0N32WB03x.FLM -FS01000000 -FL040000 -FP0($$Device:N32WB031$Flash\N32WB03x.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -157,34 +157,66 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>56</LineNumber>
+          <LineNumber>250</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>16780680</Address>
+          <Address>16785218</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>F:\MCU\Bluetooth_scan\4code\4.2my_blue_control_rtdss\applications\bsp\src\bsp.c</Filename>
+          <Filename>..\bsp\src\bsp_frame.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\rdts\../bsp/src/bsp.c\56</Expression>
+          <Expression>\\rdts\../bsp/src/bsp_frame.c\250</Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>48</LineNumber>
+          <LineNumber>248</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>16780658</Address>
+          <Address>16785196</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>F:\MCU\Bluetooth_scan\4code\4.2my_blue_control_rtdss\applications\bsp\src\bsp.c</Filename>
+          <Filename>..\bsp\src\bsp_frame.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\rdts\../bsp/src/bsp.c\48</Expression>
+          <Expression>\\rdts\../bsp/src/bsp_frame.c\248</Expression>
+        </Bp>
+        <Bp>
+          <Number>2</Number>
+          <Type>0</Type>
+          <LineNumber>246</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>16785192</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\bsp\src\bsp_frame.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\rdts\../bsp/src/bsp_frame.c\246</Expression>
+        </Bp>
+        <Bp>
+          <Number>3</Number>
+          <Type>0</Type>
+          <LineNumber>238</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>16785172</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\bsp\src\bsp_frame.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\rdts\../bsp/src/bsp_frame.c\238</Expression>
         </Bp>
       </Breakpoint>
       <Tracepoint>

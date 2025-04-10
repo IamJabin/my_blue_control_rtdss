@@ -36,6 +36,8 @@ int bsp_init(void)
 
     bsp_beep_init();
     bsp_key_init();
+    all_led_init();
+    
     return true;
 }
 

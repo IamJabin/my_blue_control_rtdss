@@ -200,8 +200,8 @@ static int rdtss_val_write_ind_handler(ke_msg_id_t const msgid,
             
             break;
         case RDTSS_IDX_WRITE_VAL:
-            //ble data receive
-          app_usart_tx_fifo_enter(ind_value->value,ind_value->length);
+//重定向了
+            app_recv_data_fifo_enter(ind_value->value,ind_value->length);
         
           break;
         default:

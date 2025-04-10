@@ -53,6 +53,8 @@ void LedInit(GPIO_Module* GPIOx, uint16_t Pin);
 void LedOn(GPIO_Module* GPIOx, uint16_t Pin);
 void LedOff(GPIO_Module* GPIOx, uint16_t Pin);
 void LedBlink(GPIO_Module* GPIOx, uint16_t Pin);
+void all_led_init(void);
+
 
 #ifdef __cplusplus
 }

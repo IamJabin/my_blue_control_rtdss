@@ -112,7 +112,17 @@ void LedBlink(GPIO_Module* GPIOx, uint16_t Pin)
     GPIO_TogglePin(GPIOx, Pin);
 }
 
+void all_led_init(void)
+{
+        // periph init 
+    LedInit(LED1_PORT,LED1_PIN);
+    LedInit(LED2_PORT,LED2_PIN);
+    LedInit(LED3_PORT,LED3_PIN);
 
+    LedOff(LED1_PORT,LED1_PIN);
+    LedOff(LED2_PORT,LED2_PIN);
+    LedOff(LED3_PORT,LED3_PIN);
+}
 
 /**
  * @}

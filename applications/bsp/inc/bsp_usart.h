@@ -108,6 +108,7 @@ void app_usart_configuration(void);
 uint8_t app_usart_rx_data_fifo_enter(const uint8_t *p_data, uint16_t len);
 uint8_t usart_tx_dma_send(uint8_t *p_data, uint16_t len);
 void app_usart_tx_data_blocking(uint8_t *p_data, uint16_t len);
+uint8_t app_recv_data_fifo_enter(const uint8_t *p_data, uint16_t len);
 
 uint8_t app_usart_tx_fifo_enter(const uint8_t *p_data, uint16_t len);
 void usart_forward_to_ble_loop(void);

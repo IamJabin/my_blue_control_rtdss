@@ -134,3 +134,8 @@
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\modules\common\api\co_bt_defines.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_profile\rdts\rdtss\api\rdtss_task.h
 .\objects\bsp_usart.o: ..\..\middlewares\Nationstech\ble_library\ns_ble_stack\ip\ble\hl\api\prf_types.h
+.\objects\bsp_usart.o: ..\bsp\inc\bsp_frame.h
+.\objects\bsp_usart.o: ..\bsp\inc\bsp.h
+.\objects\bsp_usart.o: ..\bsp\inc\bsp_gpio.h
+.\objects\bsp_usart.o: ..\bsp\inc\bsp_smg.h
+.\objects\bsp_usart.o: ..\bsp\inc\bsp.h

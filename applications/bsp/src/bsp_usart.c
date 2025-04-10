@@ -43,6 +43,7 @@
 #include "ke_timer.h"
 #include "app_ble.h"   
 #include "rdtss_task.h" 
+#include "bsp_frame.h" 
 /** @addtogroup 
  * @{
  */
@@ -276,6 +277,7 @@ void usart_forward_to_ble_loop(void)
     ble_sending = true;    
     #if (BLE_RDTSS_SERVER)
     rdtss_send_notify(  &usart_rx_fifo_buf[usart_rx_fifo_out], ble_send_len);
+    rdtss_send_notify(  "star :", ble_send_len);
     #endif
     usart_rx_fifo_out = (usart_rx_fifo_out+ble_send_len)%USART_RX_FIFO_SIZE;
 
@@ -332,6 +334,42 @@ uint8_t app_usart_rx_data_fifo_enter(const uint8_t *p_data, uint16_t len)
 
 
     return len;
+}
+
+uint8_t app_recv_data_fifo_enter(const uint8_t *p_data, uint16_t len)
+{
+    //store data in fifo
+    while(len--)
+    {
+        usart_rx_fifo_buf[usart_rx_fifo_end++] = *p_data++;
+        if(usart_rx_fifo_end == USART_RX_FIFO_SIZE)
+        {
+            usart_rx_fifo_end = 0;
+        }
+        //NS_LOG_INFO("len : %d, data : %x,   %x\r\n",len,usart_rx_fifo_buf[usart_rx_fifo_end-1], usart_rx_fifo_end);
+        
+        /** 缓存区溢出，丢弃最旧的数据，存入新数据
+        *** usart_rx_fifo_end == usart_rx_fifo_start时，
+        *** 会直接覆盖usart_rx_fifo_start位的数据，然后将usart_rx_fifo_start后移一位
+        */
+        if(usart_rx_fifo_end == usart_rx_fifo_start)
+        {
+            usart_rx_fifo_start++;
+            usart_rx_full_state = 1;
+        }
+    }
+
+    if(!ble_sending)
+    {
+        ke_timer_set(RDTSS_VAL_NTF_CFM, TASK_APP, 10);
+    }
+
+    return len;
+}
+
+void app_usart_rx_data_read_one(void)
+{
+    usart_sending = false;
 }
 
 /**
